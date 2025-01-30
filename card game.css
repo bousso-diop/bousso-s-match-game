@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  background-image: url("background.svg");
+  background-color: white;
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  overflow: hidden; 
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width:100vw;
+}
+
+.cards{
+  display: grid;
+  grid-gap: 75px;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  min-width: 200px; 
+  min-height: 200px;
+  justify-content: center;
+  overflow: visible;
+  margin-bottom: 20%;
+}
